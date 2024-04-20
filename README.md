@@ -23,4 +23,4 @@ streamlit run text_to_sql_app.py
 
 
 ### Check Out the full article of the project 
-[ Click here to check out the full article of this project.](https://medium.com/@ThomTechSavvy/how-to-create-a-simple-chatbot-app-for-data-analysis-and-visualization-using-pandasai-and-openai-771e19f4aa72)
+[ Click here to check the full article of this project.](https://medium.com/ai-advances/how-to-build-text-to-sql-app-using-google-gemini-in-a-few-lines-of-code-ca3cd2796882)

@@ -12,7 +12,7 @@ st.set_page_config(page_title='Text-To-SQL APP',page_icon=None)#,layout="wide") 
 col1, col2 = st.columns((0.3,1.7))    # without wide layout ( option-1)
 # col1, col2 = st.columns((0.15,1.7)) # with wide layout
 
-col1.image('/Users/thomt/Documents/MediumArticle/Medium/ArticlePictures/text_to_sql/text_to_sql_logo.jpeg')
+col1.image('text_to_sql_logo.jpeg')
 col2.markdown("# :rainbow[ SQL QUERY AI ASSISTANT APP]")
 st.write( "#### :blue[ This is SQL Query Generator Web App Using Google Gemini! ]")
 
@@ -20,7 +20,7 @@ query_input =st.text_area('Please enter your prompt using simple English ')
 submit=st.button("Generate SQL")
 
 # defining the api key and loading the gemini pro
-genai.configure(api_key="AIzaSyBz2iMtRIXnXMpSDXUsP0-5KTVQVpGr120") 
+genai.configure(api_key="API_KEY") 
 model=genai.GenerativeModel('gemini-pro')
 
 ## these supportive contexts helps the generative model to be more accurate 
